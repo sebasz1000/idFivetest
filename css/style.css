@@ -7668,4 +7668,21 @@ article#works p {
   font-size: 2em;
   padding: 130px; }
 
+.site-footer {
+  padding: 120px 0;
+  color: white;
+  line-height: 90%; }
+
+.site-footer nav {
+  font-weight: bold;
+  font-size: 1.2em; }
+
+.site-footer nav ul li {
+  list-style: none; }
+
+.site-footer nav ul li a:link,
+.site-footer nav ul li a:visited {
+  text-decoration: none;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */
