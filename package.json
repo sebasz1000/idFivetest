@@ -1,0 +1,23 @@
+{
+  "name": "idfive-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebasz1000/idFivetest.git"
+  },
+  "author": "Juan Sebastián Zapata <Juan Sebastián Zapata O>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebasz1000/idFivetest/issues"
+  },
+  "homepage": "https://github.com/sebasz1000/idFivetest#readme"
+}

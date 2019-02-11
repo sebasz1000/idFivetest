@@ -1,0 +1,95 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+ 
+$brand-color: #603eaf;
+
+body{
+  //background-color: $brand-color;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1360px;
+  }
+}
+.brand-color{ background-color: $brand-color; }
+
+#front-page-main{
+  background-image: url(../img/inanc-avadit-571215-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 60px 0;
+}
+
+article#front-page-main section{ 
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 100px;
+}
+article#front-page-main h1{
+  color: white;
+  font-size: 6em;
+}
+
+.cta-button{
+  background-color: transparent;
+  border: 5px solid white;
+  color: white;
+  font-size: 2em;
+  padding: 24px 54px;
+}
+
+.icon-container{
+  background-color: $brand-color;
+  position: absolute;
+  left: 38%;
+  top: -10px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 14px;
+}
+
+.clipper{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+article#features section{
+  padding: 40px ;
+}
+article#features section .thumbnail{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+article#features p{
+  font-size: 2.2em;
+  margin: 120px 0;
+}
+article#features section p{
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  margin: 0 !important;
+  font-size: 1.5em;
+}
+
+article#aside{ 
+  color: white;
+  padding: 120px 0;
+
+}
+
+article#aside p{
+  font-size: 1.4em;
+    max-width: 70%;
+}
+
+article#works p{
+  font-size: 2em;
+  padding: 130px;
+}
